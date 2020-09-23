@@ -2,8 +2,14 @@
 title: "Tidy Tuesday"
 subtitle: "Week 39"
 html_document: 
-output: html_document
+output:  rmarkdown::github_document
 ---
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
+```
+
 
  Libraries and settings
 ```{r setup, include=FALSE}

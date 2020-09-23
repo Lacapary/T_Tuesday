@@ -80,4 +80,4 @@ plot <-  expeditions_2  %>%
 
     ## Picking joint bandwidth of 2.08
 
-![](week-39_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](README_figs/README-unnamed-chunk-7-1.png)<!-- -->

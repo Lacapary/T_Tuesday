@@ -1,20 +1,19 @@
-Tidy Tuesday
+Week 39
 ================
 
 Libraries and settings
+
+``` r
+library(tidyverse)
+library(extrafont)
+library(ggridges)
+loadfonts(device = "win")
+```
 
 Load data
 
 ``` r
 data <- tidytuesdayR::tt_load(2020, week = 39)
-```
-
-    ## 
-    ##  Downloading file 1 of 3: `peaks.csv`
-    ##  Downloading file 2 of 3: `members.csv`
-    ##  Downloading file 3 of 3: `expeditions.csv`
-
-``` r
 expeditions<-data$expeditions
 ```
 
@@ -76,8 +75,4 @@ plot <-  expeditions_2  %>%
        caption = "Source: The Himalayan Database \nTidyTuesday Project - week 39 \n Visualization: @Lacapary")
 ```
 
-\#Plot
-
-    ## Picking joint bandwidth of 2.08
-
-![](README_figs/README-unnamed-chunk-7-1.png)<!-- -->
+\#Plot ![](README_figs/README-unnamed-chunk-8-1.png)<!-- -->

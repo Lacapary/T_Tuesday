@@ -10,14 +10,14 @@ knitr::opts_chunk$set(
 
 
  Libraries and settings
-```{r}
+```{r results='hide', message=FALSE, warning=FALSE}
 library(tidyverse)
 library(extrafont)
 library(ggridges)
 loadfonts(device = "win")
 ```
  Load data
-```{r  message = FALSE}
+```{r  results='hide', message=FALSE, warning=FALSE}
 data <- tidytuesdayR::tt_load(2020, week = 39)
 expeditions<-data$expeditions
 
@@ -78,7 +78,8 @@ plot <-  expeditions_2  %>%
        caption = "Source: The Himalayan Database \nTidyTuesday Project - week 39 \n Visualization: @Lacapary")
 ```
 #Plot
-```{r echo = FALSE, fig.width=15, fig.height=10}
+
+```{r echo = FALSE}
 
 plot
 

@@ -75,4 +75,8 @@ plot <-  expeditions_2  %>%
        caption = "Source: The Himalayan Database \nTidyTuesday Project - week 39 \n Visualization: @Lacapary")
 ```
 
-\#Plot ![](README_figs/README-unnamed-chunk-8-1.png)<!-- -->
+\#Plot
+
+    ## Picking joint bandwidth of 2.08
+
+![](README_figs/README-unnamed-chunk-8-1.png)<!-- -->

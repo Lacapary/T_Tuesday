@@ -1,7 +1,5 @@
 ---
-title: "Tidy Tuesday"
-subtitle: "Week 39"
-html_document: 
+title: "Week 39"
 output:  rmarkdown::github_document
 ---
 ```{r, echo = FALSE}
@@ -12,7 +10,7 @@ knitr::opts_chunk$set(
 
 
  Libraries and settings
-```{r setup, include=FALSE}
+```{r}
 library(tidyverse)
 library(extrafont)
 library(ggridges)
@@ -22,7 +20,6 @@ loadfonts(device = "win")
 ```{r  message = FALSE}
 data <- tidytuesdayR::tt_load(2020, week = 39)
 expeditions<-data$expeditions
-
 
 ```
 

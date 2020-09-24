@@ -1,2 +1,2 @@
 # T Tuesday
-[Lets go to Quora](https://www.quora.com)
+[Week 39](https://github.com/Lacapary/T_Tuesday/blob/master/week-39.md)

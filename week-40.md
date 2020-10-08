@@ -73,4 +73,4 @@ plot<-ggplot(df, aes(x = Album, y = love_count)) +
 
 \#Plot
 
-![](README_figs/README-unnamed-chunk-3-1.png)<!-- -->
+![](README_figs/README-unnamed-chunk-taylor.png)<!-- -->

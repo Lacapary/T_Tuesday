@@ -7,11 +7,9 @@ Libraries and settings
 library(tidyverse)
 library(tidytuesdayR)
 library(rcartocolor)
-library(extrafont)
 library(gganimate)
 library(ggtext)
 library(here)
-loadfonts(device = "win")
 ```
 
 # Load the weekly Data
@@ -19,9 +17,8 @@ loadfonts(device = "win")
 Dowload the weekly data and make available in the `tt` object.
 
 ``` r
-data <- tidytuesdayR::tt_load("2020-10-13")
+datasaurus <-readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-13/datasaurus.csv')
 
-datasaurus<-data$datasaurus
 glimpse(datasaurus)
 
 colours <- c(carto_pal(12, "Prism"), "#000000")
@@ -40,13 +37,7 @@ datasaurus<-datasaurus %>%
             sd_y   =   sd(y),
             coefficient  = cor(x, y, method = "pearson")) %>%
   left_join(datasaurus)
-```
 
-    ## `summarise()` ungrouping output (override with `.groups` argument)
-
-    ## Joining, by = "dataset"
-
-``` r
 p<-datasaurus %>%   ggplot(aes(x = x, y = y)) +
   #set same limits for x and y coords
   #coord_equal(clip = "off") +
@@ -60,9 +51,8 @@ p<-datasaurus %>%   ggplot(aes(x = x, y = y)) +
     aes(
       x = 60,
       y = 136,
-      label = paste("mean (x):", round(mean_x, 4)),
-      family = "Century Gothic"
-    ),
+      label = paste("mean (x):", round(mean_x, 4))
+        ),
     hjust = 0.5,
     size = 4.5,
     color = "white"
@@ -71,8 +61,7 @@ p<-datasaurus %>%   ggplot(aes(x = x, y = y)) +
     aes(
       x = 60,
       y = 132,
-      label = paste("mean (y):", round(mean_y, 4)),
-      family = "Century Gothic"
+      label = paste("mean (y):", round(mean_y, 4))
     ),
     hjust = 0.5,
     size = 4.5,
@@ -82,8 +71,7 @@ p<-datasaurus %>%   ggplot(aes(x = x, y = y)) +
     aes(
       x = 60,
       y = 128,
-      label = paste("standard deviation (x):", round(sd_x, 4)),
-      family = "Century Gothic"
+      label = paste("standard deviation (x):", round(sd_x, 4))
     ),
     hjust = 0.5,
     size = 4.5,
@@ -93,8 +81,7 @@ p<-datasaurus %>%   ggplot(aes(x = x, y = y)) +
     aes(
       x = 60,
       y = 124,
-      label = paste("standard deviation (y):", round(sd_y, 4)),
-      family = "Century Gothic"
+      label = paste("standard deviation (y):", round(sd_y, 4))
     ),
     hjust = 0.5,
     size = 4.5,
@@ -104,8 +91,7 @@ p<-datasaurus %>%   ggplot(aes(x = x, y = y)) +
     aes(
       x = 60,
       y = 120,
-      label = paste("correlation", round(coefficient, 4)),
-      family = "Century Gothic"
+      label = paste("correlation", round(coefficient, 4))
     ),
     hjust = 0.5,
     size = 4.5,
@@ -115,20 +101,20 @@ p<-datasaurus %>%   ggplot(aes(x = x, y = y)) +
        subtitle = "<b style='font-size:24pt;'>Case Study: The DataSaurus Dozen</b><br><br>The DataSaurus Dozen highlights the importance of visualising data; while summary statistics (means, standard deviations and correlation measures) for various datasets can be the same, their distributions can be significantly varied. ",
        caption = " Source: Francis Anscombe, Alberto Cairo, Justin Matejka & George Fitzmaurice  \nTidyTuesday Project - week 42 \nVisualization: @Lacapary") +
   theme_minimal() +
-  theme(plot.title = element_text(family = "Century Gothic", 
-                                  size = 42,
+  theme(
+    plot.title = element_text(    size = 30,
                                   color = "white",
                                   hjust = 0.5,
                                   margin = margin(15, 0, 40, 0)),
         plot.title.position = "plot",
-        plot.subtitle = element_textbox_simple(family = "Century Gothic", 
-                                     size = 12,
+        plot.subtitle = element_textbox_simple( 
+                                     size = 10,
                                      color = "white", 
                                      halign = 0.5,
                                      lineheight = 1.2,
                                      margin = margin(10, 0, 0, 0)),
-        plot.caption = element_text(family = "Century Gothic",
-                                    size = 12,
+        plot.caption = element_text(
+                                    size = 10,
                                     colour = "white",
                                     lineheight = 1.2,
                                     hjust = 0.5,
@@ -148,4 +134,4 @@ p<-datasaurus %>%   ggplot(aes(x = x, y = y)) +
 
 # Plot
 
-![](README_figs/README-unnamed-chunk-3-1.gif)<!-- -->
+![](README_figs/README-datasaurus-1.gif)<!-- -->

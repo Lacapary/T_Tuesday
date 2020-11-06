@@ -6,10 +6,10 @@ Libraries and settings
 ``` r
 library(tidyverse)
 library(tidytuesdayR)
-library(extrafont)
+library(sysfonts)
+library(showtext)
 library(ggtext)
 library(geofacet)
-loadfonts(device = "win")
 ```
 
 # Load the weekly Data
@@ -27,6 +27,8 @@ glimpse(beer_awards)
 Using the dataset to create unique visualization.
 
 ``` r
+font_add_google(name = "Yanone Kaffeesatz", family = "Yanone Kaffeesatz")
+showtext_auto()
 p <- beer_awards %>%
   mutate(state = toupper(state)) %>%
   group_by(state, medal) %>%
@@ -50,26 +52,26 @@ p <- beer_awards %>%
   
   theme(
     legend.position = "none",
-    text = element_text(family = "Candara", color = "#00688B"),
+    text = element_text(family = "Yanone Kaffeesatz", color = "#00688B"),
     plot.title = element_text(
-      family = "Candara",
+      family = "Yanone Kaffeesatz",
       size = 20,
       hjust = .5,
       face = "bold"
     ),
     plot.subtitle = element_text(
-      family = "Candara",
+      family = "Yanone Kaffeesatz",
       size = 11,
       hjust = .5
     ),
-    plot.caption = element_text(family = "Candara",
+    plot.caption = element_text(family = "Yanone Kaffeesatz",
                                 size = 10),
     plot.caption.position = "plot",
     plot.margin = margin(1, 1, 1, 1),
     axis.ticks.y = element_blank(),
     strip.text.x = element_text(
       size = 6,
-      family = "Candara",
+      family = "Yanone Kaffeesatz",
       color = "#00688B"
     ),
     axis.text.x = element_text(
@@ -77,7 +79,7 @@ p <- beer_awards %>%
       hjust = 1,
       size = 6,
       color = "#00688B",
-      family = "Candara"
+      family = "Yanone Kaffeesatz"
     ),
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),

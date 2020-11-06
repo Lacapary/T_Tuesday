@@ -81,4 +81,4 @@ p<-ikea %>% ggerrorplot(
   scale_y_continuous(labels = scales::dollar_format())
 ```
 
-![](README_figs/README-unnamed-chunk-3-1.png)<!-- -->
+![](README_figs/README-ikea-1.png)<!-- -->

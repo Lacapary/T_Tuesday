@@ -91,7 +91,7 @@ p<-ikea %>% ggerrorplot(
   scale_y_continuous(labels = scales::dollar_format())
 ```
 
-```{r echo = FALSE}
+```{r ikea, echo = FALSE}
 
 p
 ```

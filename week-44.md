@@ -6,11 +6,11 @@ Libraries and settings
 ``` r
 library(tidyverse)
 library(tidytuesdayR)
-library(extrafont)
+library(sysfonts)
+library(showtext)
 library(ggtext)
 library(treemapify)
 library(scales)
-loadfonts(device = "win")
 ```
 
 # Load the weekly Data
@@ -28,6 +28,8 @@ glimpse(w_turbine)
 Using the dataset to create unique visualization.
 
 ``` r
+font_add_google(name = "Barlow Condensed", family = "Barlow Condensed")
+showtext_auto()
 p<-w_turbine %>%
   group_by(province_territory, manufacturer) %>%
   summarize(num_turb = n(),
@@ -53,7 +55,7 @@ p<-w_turbine %>%
   ) +
   theme_bw() +
   theme(
-    text = element_text(family = "Segoe UI Light"   ),
+    text = element_text(family = "Barlow Condensed"   ),
     legend.title=element_text(size=10),
     plot.title = element_text(face = "bold"),
     legend.position = "bottom",
@@ -63,4 +65,4 @@ p<-w_turbine %>%
   facet_wrap(~ province_territory)
 ```
 
-![](README_figs/README-unnamed-chunk-3-1.png)<!-- -->
+![](README_figs/README-Canadian_WT-1.png)<!-- -->

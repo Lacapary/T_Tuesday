@@ -3,7 +3,6 @@
 A repository for contributions to the Tidy Tuesday intiative: https://github.com/rfordatascience/tidytuesday.
 
 2020
-
 <br> [Week 39](https://github.com/Lacapary/T_Tuesday/blob/master/week-39.md)  Himalayan Climbing Expeditions 
 <br> [Week 40](https://github.com/Lacapary/T_Tuesday/blob/master/week-40.md)  Taylor Swift´s Lyrics 
 <br> [Week 41](https://github.com/Lacapary/T_Tuesday/blob/master/week-41.md)  Women in NCAA tournament

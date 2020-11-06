@@ -91,7 +91,7 @@ plot<-tournament %>%
 
 # Plot
 
-```{r echo = FALSE}
+```{r  NCAA_tournament, echo = FALSE}
 
 plot
 

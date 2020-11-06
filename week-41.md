@@ -83,4 +83,4 @@ plot<-tournament %>%
 
 # Plot
 
-![](README_figs/README-unnamed-chunk-3-1.png)<!-- -->
+![](README_figs/README-NCAA_tournament-1.png)<!-- -->

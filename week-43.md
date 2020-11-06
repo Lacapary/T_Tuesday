@@ -89,4 +89,4 @@ p <- beer_awards %>%
 
     ## `summarise()` regrouping output by 'state' (override with `.groups` argument)
 
-![](README_figs/README-unnamed-chunk-3-1.png)<!-- -->
+![](README_figs/README-Brewing%20-1.png)<!-- -->

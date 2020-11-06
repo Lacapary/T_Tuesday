@@ -98,7 +98,7 @@ p <- beer_awards %>%
   )
 
 ```
-```{r echo = FALSE}
+```{r Brewing ,echo = FALSE}
 
 p
 

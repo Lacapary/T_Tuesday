@@ -1,0 +1,41 @@
+---
+title: "Week 46"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-")
+```
+
+
+ Libraries and settings
+```{r results='hide', message=FALSE, warning=FALSE}
+library(tidyverse)
+library(tidytuesdayR)
+library(scales)
+library(sysfonts)
+library(showtext)
+library(ggtext)
+theme_set(theme_bw())
+
+```
+# Load the weekly Data
+
+Dowload the weekly data and make available in the `tt` object.
+```{r  results='hide', message=FALSE, warning=FALSE}
+data <- tidytuesdayR::tt_load("2020-11-24")
+
+```
+
+
+# Visualize
+
+Using the dataset to create unique visualization.
+
+```{r Visualize, message=FALSE, warning=FALSE}
+
+```
+```{r phone_line, echo = FALSE}
+p
+```

@@ -103,6 +103,5 @@ p<-df %>% ggplot(aes(x = year, y = subs, fill = type)) +
 
 ```
 ```{r phone_line, echo = FALSE}
-
 p
 ```

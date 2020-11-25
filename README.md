@@ -28,12 +28,13 @@ Contributions in chronological order
 [Week 42](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-42.md)  🦖The importance of Data Visualization  
 [Week 43](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-43.md)  🍻Brewing in USA  
 [Week 44](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-44.md)  🀃Canadian Wind Turbines  
-[Week 45](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-45.md)  🛏️IKEA Prices in Saudi Arabian  
+[Week 45](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-45.md)  🛏️IKEA Prices in Saudi Arabian   
+[Week 46](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-46.md)  📱Historical Phone Usage    
 
 ### Last contribution
 
-[Week 46](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-46.md)  📱Historical Phone Usage  
-[![](./codes/README_figs/README-phone_line-1.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-46.md) 
+[Week 48](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-48.md)  🥾 Washington Hiking  
+[![](./codes/README_figs/README-Washington_State-1.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-48.md) 
 ***
 
 ###### *Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)*

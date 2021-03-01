@@ -18,7 +18,8 @@ Quick Link
 My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday), a weekly social data project that focuses on understanding how to summarize and arrange data to make meaningful and/or beautiful charts with `{ggplot2}`, `{tidyr}` and other tools that are part of the [`{tidyverse}`](https://www.tidyverse.org/).
 Feedback is very welcome via [Twitter](https://twitter.com/lacapary).
 
-Contributions in chronological order 
+Contributions in chronological order  
+
 * **Challenges 2021** 
 
 * **Challenges 2020** 
@@ -39,7 +40,7 @@ Contributions in chronological order
 ### Last contribution
 
   
-[![](./codes/README_figs/shelters_Week49.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-49.md) 
+[![](./codes/2020/README_figs/shelters_Week49.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-49.md) 
 ***
 
 ###### *Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)*

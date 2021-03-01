@@ -22,19 +22,19 @@ Contributions in chronological order
 
 * **Challenges 2020** 
 
-[Week 39](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-39.md)  ⛰️Himalayan Climbing Expeditions   
-[Week 40](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-40.md)  🎵Taylor Swift´s Lyrics  
-[Week 41](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-41.md)  🏀Women in NCAA tournament  
-[Week 42](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-42.md)  🦖The importance of Data Visualization  
-[Week 43](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-43.md)  🍻Brewing in USA  
-[Week 44](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-44.md)  🀃Canadian Wind Turbines  
-[Week 45](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-45.md)  🛏️IKEA Prices in Saudi Arabian   
-[Week 46](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-46.md)  📱Historical Phone Usage    
-[Week 48](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-48.md)  🥾 Washington Hiking   
+[Week 39](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-39.md)  ⛰️Himalayan Climbing Expeditions   
+[Week 40](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-40.md)  🎵Taylor Swift´s Lyrics  
+[Week 41](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-41.md)  🏀Women in NCAA tournament  
+[Week 42](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-42.md)  🦖The importance of Data Visualization  
+[Week 43](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-43.md)  🍻Brewing in USA  
+[Week 44](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-44.md)  🀃Canadian Wind Turbines  
+[Week 45](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-45.md)  🛏️IKEA Prices in Saudi Arabian   
+[Week 46](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-46.md)  📱Historical Phone Usage    
+[Week 48](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-48.md)  🥾 Washington Hiking   
 
 ### Last contribution
 
-[Week 49](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-49.md)  🏠 Toronto Shelters   
+[Week 49](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-49.md)  🏠 Toronto Shelters   
 [![](./codes/README_figs/shelters_Week49.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-49.md) 
 ***
 

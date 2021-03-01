@@ -19,6 +19,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 Feedback is very welcome via [Twitter](https://twitter.com/lacapary).
 
 Contributions in chronological order 
+* **Challenges 2021** 
 
 * **Challenges 2020** 
 
@@ -30,12 +31,15 @@ Contributions in chronological order
 [Week 44](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-44.md)  🀃Canadian Wind Turbines  
 [Week 45](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-45.md)  🛏️IKEA Prices in Saudi Arabian   
 [Week 46](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-46.md)  📱Historical Phone Usage    
-[Week 48](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-48.md)  🥾 Washington Hiking   
+[Week 48](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-48.md)  🥾 Washington Hiking
+[Week 49](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-49.md)  🏠 Toronto Shelters 
+
+
 
 ### Last contribution
 
-[Week 49](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-49.md)  🏠 Toronto Shelters   
-[![](./codes/README_figs/shelters_Week49.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/week-49.md) 
+  
+[![](./codes/README_figs/shelters_Week49.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-49.md) 
 ***
 
 ###### *Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)*

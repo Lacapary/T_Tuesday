@@ -1,17 +1,11 @@
----
-title: "Week 10"
-output: rmarkdown::github_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  fig.path = "README_figs/Plot-")
-```
+Week 10
+================
 
 # Superbowl-ads
 
- Libraries and settings
-```{r library, results="hide", message=FALSE, warning=FALSE}
+Libraries and settings
+
+``` r
 library(tidyverse)
 library(tidytuesdayR)
 library(showtext)
@@ -21,29 +15,32 @@ font_add_google("Nunito Sans", "Nunito Sans")
 font_add_google("Roboto", "Roboto")
 showtext_auto()
 ```
+
 # Load the weekly Data
 
 Download the weekly data and make available in the `tt` object.
-```{r  load, results="hide", message=FALSE, warning=FALSE}
+
+``` r
 data <- tidytuesdayR::tt_load("2021-03-02")
 
 yt <- data$youtube
-
 ```
 
-The data this week comes from [FiveThirtyEight](https://github.com/fivethirtyeight/superbowl-ads). 
+The data this week comes from
+[FiveThirtyEight](https://github.com/fivethirtyeight/superbowl-ads).
 
 # Glimpse Data
 
 Take an initial look at the format of the data available.
 
-```{r Glimpse, results="hide", message=FALSE, warning=FALSE}
+``` r
 yt %>% 
   map(glimpse)
 ```
 
 # Wrangle
-```{r Wrangle, message=FALSE, warning=FALSE}
+
+``` r
 yt <- yt  %>% 
   rename("sex" = "use_sex") %>% 
   mutate(brand = recode(brand, "Hynudai" = "Hyundai")) %>% 
@@ -84,12 +81,11 @@ yt <- yt  %>%
   )
 ```
 
-
 # Visualize
 
 Using the dataset to create unique visualization.
 
-```{r Yt_ads, message=FALSE, warning=FALSE, fig.width=8, fig.height=5}
+``` r
 p <-ggplot(yt %>% drop_na(characteristic),
        aes(year, characteristic, fill = percent_usage)) +
   geom_tile(color= "#f3f2f1", size = 1) +
@@ -135,3 +131,5 @@ p <-ggplot(yt %>% drop_na(characteristic),
   )
 p
 ```
+
+![](README_figs/Plot-Yt_ads-1.png)<!-- -->

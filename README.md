@@ -21,8 +21,8 @@ Feedback is very welcome via [Twitter](https://twitter.com/lacapary).
 Contributions in chronological order  
 
 * **Challenges 2021**  
-[Week 10](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/week_10.md)  🏈Youtube Superbowl Ads   
-[Week 11](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/week_11.md)  🎞️Bechdel Tests 
+[Week 10](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/Week_10.md)  🏈Youtube Superbowl Ads   
+[Week 11](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/Week_11.md)  🎞️Bechdel Tests 
 * **Challenges 2020**  
 [Week 39](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-39.md)  ⛰️Himalayan Climbing Expeditions   
 [Week 40](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2020/week-40.md)  🎵Taylor Swift´s Lyrics  
@@ -39,9 +39,9 @@ Contributions in chronological order
 
 ### Last contributions
 
-[![](./codes/2021/README_figs/Plot-Bechdtel_test-1.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/week_11.md) 
+[![](./codes/2021/README_figs/Plot-Bechdtel_test-1.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/Week_11.md) 
   
-[![](./codes/2021/README_figs/Plot-Yt_ads-1.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/week_10.md)  
+[![](./codes/2021/README_figs/Plot-Yt_ads-1.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/Week_10.md)  
 
 
 ###### *Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)*

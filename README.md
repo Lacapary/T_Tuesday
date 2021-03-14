@@ -39,7 +39,7 @@ Contributions in chronological order
 ### Last contribution
 
   
-[![](./codes/2021/README_figs/Plot-yt_ads-1.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/week_10.md)  
+[![](./codes/2021/README_figs/Plot-Yt_ads-1.png)](https://github.com/Lacapary/T_Tuesday/blob/master/codes/2021/week_10.md)  
 
 
 ###### *Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)*
